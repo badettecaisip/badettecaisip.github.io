@@ -1,0 +1,241 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	
+	<link rel="stylesheet" type="text/css" href="CAISIP_pizzaOrderFormDesign_CSAD.css">
+    <meta charset="utf-8">
+    <title>ORDER FORM</title>
+	<style type="text/css">
+	
+
+	</style>
+</head>
+<body>
+    <!--CAISIP, Bernadette Luzed B.-->
+    <!---->
+	
+	<div class="container">
+		<div class="title">
+			<h1>Pizza Order Form</h1>
+		</div>
+		<div class="d-flex">
+			<form action="" method="get">
+			<br>
+			<h2>Customer Information</h2>
+			<br>
+			<label>
+				<p class="fname">Full Name </p>
+				<input type="text" name="fname" max="50" placeholder="Enter Customer name" required>
+			</label>
+			<label>
+				<p class="Address">Address </p>
+				<input type="text" name="Address" max="50" placeholder="Enter Home Address">
+			</label>
+			<label>
+				<p class="cnumber">Contact Number</p>
+				<input type="text" name="cnumber" max="50" placeholder="Enter Contact Number" required>
+			</label>
+			
+			<label>
+				<p class="email">Email Address</p>
+				<input type="email" name="email" max="50" placeholder="Enter Email Address">
+			</label>
+			
+			<label for="direction">
+				<p class="direction">Description of how to get to the place</p>
+				<input type="text" name="direction" style="height:100px" max="50" placeholder="Enter Directation Details">
+			</label>
+			
+			
+			
+			
+		<br><br><br><br>
+			<h2 class="label">THE MENU</h2>
+			<br><br>
+			
+			<label for="bchoice">
+				<h1>BURGERS</h1>
+				<br><br>
+				<img src="CAISIP_IMAGES_CSAD/burger.png" style="float:left; border-radius:20px; margin:20px" width="340px" height="280px">
+				<p class="bchoice">CUSTOMIZE YOUR OWN BURGERS</p>
+				<label class="checkbox-inline">
+					<input type="radio" name="options" value="">Single Patty&nbsp&nbsp&nbsp 
+					<input type="radio" name="options" value="">Double Patty&nbsp&nbsp&nbsp
+					<input type="radio" name="options"value="">Plant Based Patty&nbsp&nbsp&nbsp
+				</label>
+				<label>
+					<p class="bchoice">ADD-ONS</p>
+					<br>
+					<input type="checkbox" value="">Tomato&nbsp&nbsp&nbsp&nbsp
+													&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Onion&nbsp&nbsp&nbsp
+													&nbsp
+													&nbsp&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">With Cheese&nbsp&nbsp&nbsp
+													&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Bacon
+				</label>
+				
+				
+				<p class="bchoice">CHOICE OF BUNS</p>
+				<label>
+					<input type="radio" value="">White Bun&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" value="">Wheat Bun&nbsp&nbsp&nbsp&nbsp
+				</label>
+				
+				<p class="bchoice" style="margin-top:20px">QUANTITY</p>
+				<label>
+				<select name="burgers" id="quantity" size="1" style="width:150px">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+				</select>
+				</label>
+		
+		
+		<br><br>
+			<h1>PASTAS</h1>
+			<br><br>
+			<img src="CAISIP_IMAGES_CSAD/pasta2.png" style="float:left; border-radius:20px; margin:20px" width="340px" height="290px">
+			<br>
+			<p class="bchoice">CUSTOMIZE YOUR OWN PASTA</p>
+				<label class="checkbox-inline">
+					<input type="radio" name="options" value="">Carbonara&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+					<input type="radio" name="options" value="">Spaghetti&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" name="options" value="">Pesto&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" name="options" value="">Alfredo&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				</label>
+				
+				<p class="bchoice">ADD-ONS</p>
+			
+				<label class="checkbox-inline">
+					<input type="checkbox" value="">Extra Cheese&nbsp&nbsp&nbsp 
+					<input type="checkbox" value="">Extra Sauce&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Extra Meat&nbsp&nbsp&nbsp
+				</label>
+				
+				<p class="bchoice">CHOICE OF CRUST</p>
+				<label>
+					<input type="radio" value="">Thin Crust&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" value="">Classic Crust&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" value="">Wheat Crust&nbsp&nbsp&nbsp&nbsp
+				</label>
+				
+				<p class="bchoice" style="margin-top:20px">QUANTITY PER BOX</p>
+				<label>
+				<select name="burgers" id="quantity" size="1" style="width:150px">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+						<option value="burger4">5</option>
+				</select>
+				</label>
+			<br><br>
+			
+			<h1>FRENCH FRIES</h1>
+			<br><br>
+			<img src="CAISIP_IMAGES_CSAD/fries.png" style="float:left; border-radius:20px; margin:20px" width="320px" height="290px">
+			<br>
+			<p class="bchoice">FRENCH FRIES SIZES</p>
+				<label>
+					<input type="radio" name="options" id="small"/>Small&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" name="options" id="grande"/>Medium&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" name="options" id="tall"/>Large&nbsp&nbsp&nbsp&nbsp
+				</label>
+				
+			<p class="bchoice">FLAVORS (Choose two flavors for mixed flavors)</p>
+			
+				<label class="checkbox-inline">
+					<input type="checkbox" value="">Cheese&nbsp&nbsp&nbsp 
+					<input type="checkbox" value="">Barbeque&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Sour Cream&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Honey Butter&nbsp&nbsp&nbsp
+				</label>
+				
+			<p class="bchoice" style="margin-top:20px">QUANTITY</p>
+				<label>
+				<select name="burgers" id="quantity" size="1" style="width:150px">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+						<option value="burger4">5</option>
+				</select>
+		
+		<br><br><br><br>
+		<h1>DRINKS</h1>
+			<br><br><br><br>
+			<img src="CAISIP_IMAGES_CSAD/drinks.png" style="float:left; border-radius:20px; margin:20px" width="310px" height="270px">
+			<br>
+			
+			<p class="bchoice">DRINKS SIZES</p>
+				<label>
+					<input type="radio" name="options" id="small"/>Small&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" name="options" id="grande"/>Grande&nbsp&nbsp&nbsp&nbsp
+					<input type="radio" name="options" id="tall"/>Tall&nbsp&nbsp&nbsp&nbsp
+				</label>
+				
+			<p class="bchoice">TYPE OF DRINKS</p>
+			
+				<label class="checkbox-inline">
+					<input type="checkbox" value="">Coke&nbsp&nbsp&nbsp 
+					<input type="checkbox" value="">Pepsi&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Royal&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Orange Juice&nbsp&nbsp&nbsp
+				</label>
+				<label>
+					<input type="checkbox" value="">Tea&nbsp&nbsp&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Strawberry Milkshake&nbsp&nbsp&nbsp
+					<input type="checkbox" value="">Coffee&nbsp&nbsp&nbsp
+				</label>
+			<p class="bchoice" style="margin-top:20px">QUANTITY</p>
+				<label>
+				<select name="burgers" id="quantity" size="1" style="width:150px">
+						<option value="burger1">1</option>
+						<option value="burger2">2</option>
+						<option value="burger3">3</option>
+						<option value="burger4">4</option>
+						<option value="burger4">6</option>
+						<option value="burger4">7</option>
+						<option value="burger4">8</option>
+				</select>
+	</label>
+	
+	<br><br><br>
+	<h2> FEEDBACKS </h2>
+			<label for="direction">
+			<br>
+				<p class="direction">COMMENTS/SUGGESTIONS</p>
+				<input type="text" name="direction" style="height:100px" max="150">
+			</label>
+		
+		<br><br><br>
+	<div class="delivery">
+		<div class="innerd">
+			<h2> DELIVERY </h2>
+		</div>
+		<br>
+			<p>SHIPPING OPTIONS</p>
+			<label>
+				<input type="radio" name="options" id="delivery" value="delivery">Delivery&nbsp&nbsp&nbsp&nbsp
+				<input type="radio" name="options" id="pickup" value="pickup" value="pickup">Pick-Up&nbsp&nbsp&nbsp&nbsp
+			</label>
+			<br>
+			<p>MODE OF PAYMENT</p>
+			<label>
+				<input type="radio" name="options" id="delivery" value="delivery">Gcash&nbsp&nbsp&nbsp&nbsp
+			</label>
+			<label>
+				<input type="radio" name="options" id="delivery" value="delivery">Cash on the Delivery&nbsp&nbsp&nbsp&nbsp
+			</label>
+			<label>
+				<input type="radio" name="options" id="delivery" value="delivery">PNB&nbsp&nbsp&nbsp&nbsp
+			</label>
+	</div>
+	<br><br>
+			<button type="button">Place Order</button>
+ </div>
+</body>
+</html>
